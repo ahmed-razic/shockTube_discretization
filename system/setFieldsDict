@@ -26,9 +26,9 @@ zones
     {
         type        cylinder;
 
-        point1  (0 0 -1);
-        point2  (0 0  1);
-        radius  0.5;
+        point1      (0 0 -1);
+        point2      (0 0  1);
+        radius      0.5;
 
         values
         {
