@@ -14,7 +14,8 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#includeFunc scalarTransport(T, diffusivity=constant, D = 0.01)
+#includeFunc scalarTransport(T, diffusivity=constant, D = 0.0)
+//#includeFunc scalarTransport(T, diffusivity=constant, D = 0.01)
 
 mixingQualityCheck
 {

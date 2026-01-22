@@ -16,23 +16,25 @@ FoamFile
 
 defaultValues
 {
-    U       (0 0 0);
+    U       (1 0 0);
     T       0.0;
 }
 
 zones
 {
-    startingTemp
+    startingZone
     {
-        type        box;
+        type        cylinder;
 
-        box         (-0.5 -1 -1) (0.5 1 1);
+        point1  (0 0 -1);
+        point2  (0 0  1);
+        radius  0.5;
 
         values
         {
             T       1.0;
         }
-    }
+    };
 }
 
 // ************************************************************************* //

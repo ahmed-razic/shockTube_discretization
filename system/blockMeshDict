@@ -45,7 +45,7 @@ boundary
             (3 7 6 2)
         );
     }
-    empty
+    emptySide
     {
         type empty;
         faces
